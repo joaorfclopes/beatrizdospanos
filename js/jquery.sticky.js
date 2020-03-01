@@ -44,7 +44,7 @@
       var scrollTop = $window.scrollTop(),
         documentHeight = $document.height(),
         dwh = documentHeight - windowHeight,
-        extra = (scrollTop > dwh) ? dwh - scrollTop : -1;
+        extra = (scrollTop > dwh) ? dwh - scrollTop : 0;
 
       for (var i = 0, l = sticked.length; i < l; i++) {
         var s = sticked[i],
