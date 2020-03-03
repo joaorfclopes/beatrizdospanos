@@ -2728,6 +2728,15 @@ figure figcaption {
     visibility: hidden;
   }
 }
+.btn-primary {
+  border: none !important;
+}
+.btn-primary:active {
+  background-color: black !important;
+}
 .containerRow {
   margin-top: 5vh;
+}
+.saberMainButton:hover {
+  color: black !important;
 }
