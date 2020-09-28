@@ -51,8 +51,12 @@
           <div class="row align-items-center">
             <div class="col-6 col-xl-2">
               <h1 class="mb-0 site-logo">
-                <a href="index.html" class="h2 mb-0"
-                  >Beatriz<span class="text-primary">.</span>
+                <a href="#home-section" class="h2 mb-0">
+                  <img
+                    src="./assets/SVG/logo.svg"
+                    alt="logo"
+                    style="width: 50px"
+                  />
                 </a>
               </h1>
             </div>
@@ -65,9 +69,16 @@
                 <ul
                   class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block"
                 >
-                  <li><a href="#home-section" class="nav-link">Home</a></li>
-                  <li>
-                    <a href="#empresa-section" class="nav-link">Empresa</a>
+                  <li class="has-children">
+                    <a href="#home-section" class="nav-link">Home</a>
+                    <ul class="dropdown">
+                      <li>
+                        <a href="#empresa-section" class="nav-link">Empresa</a>
+                      </li>
+                      <li>
+                        <a href="#equipa-section" class="nav-link">Equipa</a>
+                      </li>
+                    </ul>
                   </li>
                   <li class="has-children">
                     <a href="#tecidos-section" class="nav-link">Tecidos</a>
@@ -78,10 +89,13 @@
                         >
                       </li>
                       <li>
-                        <a
-                          href="#complementos-confecao-section"
-                          class="nav-link"
-                          >Complementos de Confeção e Moda</a
+                        <a href="#tecidos-decoracao-section" class="nav-link"
+                          >Tecidos de Decoração</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#servicos-confecao-section" class="nav-link"
+                          >Complementos e Acessórios</a
                         >
                       </li>
                       <li>
@@ -95,33 +109,28 @@
                     <a href="#decoracao-section" class="nav-link">Decoração</a>
                     <ul class="dropdown">
                       <li>
-                        <a href="#tecidos-decoracao-section" class="nav-link"
-                          >Tecidos de Decoração</a
-                        >
-                      </li>
-                      <li>
                         <a href="#artigos-decoracao-section" class="nav-link"
                           >Artigos de Decoração</a
                         >
                       </li>
                       <li>
                         <a
-                          href="#complementos-acessorios-section"
+                          href="#hotelaria-restauracao-section"
                           class="nav-link"
-                          >Complementos e Acessórios</a
+                          >Hotelaria e Restauração</a
                         >
                       </li>
                       <li>
-                        <a href="#servicos-decoracao-section" class="nav-link"
-                          >Serviços de Decoração</a
-                        >
-                      </li>
-                      <li>
-                        <a href="#hoteis-instituicoes-section" class="nav-link"
-                          >Hóteis e Instituições</a
+                        <a href="#design-interiores-section" class="nav-link"
+                          >Design de Interiores</a
                         >
                       </li>
                     </ul>
+                  </li>
+                  <li>
+                    <a href="#cortinados-rolos-section" class="nav-link"
+                      >Cortinados e Rolos</a
+                    >
                   </li>
                   <li>
                     <a href="#portfolio-section" class="nav-link">Portfólio</a>
@@ -135,7 +144,7 @@
 
             <div
               class="col-6 d-inline-block d-xl-none ml-md-0 py-3"
-              style="position: relative; top: 3px;"
+              style="position: relative; top: 3px"
             >
               <a href="#" class="site-menu-toggle js-menu-toggle float-right"
                 ><span class="icon-menu h3"></span
@@ -147,25 +156,31 @@
 
       <div
         class="site-blocks-cover overlay"
-        style="background-image: url(images/home.jpg);"
+        style="background-image: url(images/home.jpg)"
         data-aos="fade"
         id="home-section"
       >
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-8 mt-lg-5 text-center">
-              <h1 class="text-uppercase">
-                Beatriz dos Panos
-              </h1>
+              <p>
+                <img
+                  src="./assets/SVG/logo.svg"
+                  alt="logo"
+                  style="width: 15vh; margin-top: 50px;"
+                />
+              </p>
+              <p>
+                <img
+                  src="./assets/SVG/lettering.svg"
+                  alt="lettering"
+                  style="max-width: 50vh"
+                />
+              </p>
               <p class="mb-5 desc">
                 Bem-vindo à sua loja para tecidos a metro e muito mais com 50
                 anos de experiência em tecidos de confeção e decoração!
               </p>
-              <a
-                href="#contactos-section"
-                class="btn smoothscroll btn-primary mr-2 mb-2"
-                >Contacte-nos</a
-              >
             </div>
           </div>
         </div>
@@ -536,7 +551,7 @@
                   </p>
                   <p>
                     <a
-                      href="#hoteis-instituicoes-section"
+                      href="#hotelaria-restauracao-section"
                       class="saberMainButton smoothscroll"
                       >Saber Mais</a
                     >
@@ -736,7 +751,7 @@
         </div>
       </section>
 
-      <section class="site-section bg-light" id="hoteis-instituicoes-section">
+      <section class="site-section bg-light" id="hotelaria-restauracao-section">
         <div class="container">
           <div class="row mb-5">
             <div class="col-12 text-center" data-aos="fade">
@@ -1022,7 +1037,7 @@
               width="800"
               height="600"
               frameborder="0"
-              style="border:0;"
+              style="border: 0"
               allowfullscreen=""
             ></iframe>
           </div>
