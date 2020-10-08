@@ -2768,6 +2768,10 @@ figure figcaption {
   padding-bottom: 100px;
 }
 
+.video {
+  max-width: 100%;
+}
+
 @media only screen and (max-width: 992px) {
   .switch-container {
     display: -webkit-box;
