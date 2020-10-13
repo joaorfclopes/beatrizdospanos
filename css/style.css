@@ -2772,6 +2772,11 @@ figure figcaption {
   max-width: 100%;
 }
 
+.team {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 @media only screen and (max-width: 992px) {
   .switch-container {
     display: -webkit-box;
