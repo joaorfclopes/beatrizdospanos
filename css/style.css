@@ -2790,6 +2790,13 @@ figure figcaption {
   background-repeat: no-repeat !important;
 }
 
+@media only screen and (max-width: 400px) {
+  .team-member {
+    width: 17vh;
+    height: 17vh;
+  }
+}
+
 .team-member-content {
   min-height: 100%;
   justify-content: center;
