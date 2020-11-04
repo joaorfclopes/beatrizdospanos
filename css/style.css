@@ -2773,7 +2773,7 @@ figure figcaption {
 }
 
 .team {
-  margin-top: 50px;
+  margin-top: 10vh;
 }
 
 .team-member {
@@ -2787,6 +2787,17 @@ figure figcaption {
 }
 
 .member-img {
+  width: 200px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+
+.member-img:hover {
+  filter: grayscale(0%);
+}
+
+.partner-img {
   width: 200px;
 }
 
