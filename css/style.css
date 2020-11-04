@@ -2811,6 +2811,10 @@ figure figcaption {
     top: 50%;
     transform: translateY(-50%);
   }
+
+  .horario-img {
+    max-width: 70%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -2834,5 +2838,8 @@ figure figcaption {
   }
   .carousel-item-title {
     padding-top: 4vh !important;
+  }
+  .horario-img {
+    max-width: 100%;
   }
 }
