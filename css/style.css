@@ -2801,6 +2801,11 @@ figure figcaption {
   width: 200px;
 }
 
+.owl-nav,
+.owl-dot {
+  display: none !important;
+}
+
 @media only screen and (min-width: 992px) {
   .member-info-container {
     position: relative;
