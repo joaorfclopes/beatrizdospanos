@@ -2121,6 +2121,7 @@ body:after {
   color: #dc3b21;
   font-size: 40px;
   font-weight: 900;
+  text-align: center;
 }
 @media (max-width: 991.98px) {
   .section-title {
@@ -2763,6 +2764,7 @@ figure figcaption {
 
 .carousel-item-title {
   padding-bottom: 1vh !important;
+  text-align: left;
 }
 
 .last-section {
@@ -2850,4 +2852,7 @@ figure figcaption {
     max-width: 100%;
     margin-top: 80px;
   }
+}
+.h3.mb-4.text-black {
+  text-align: left;
 }
